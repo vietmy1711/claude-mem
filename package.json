@@ -91,7 +91,7 @@
     "strip-comments": "bun scripts/strip-comments.ts",
     "strip-comments:check": "bun scripts/strip-comments.ts --check",
     "strip-comments:dry-run": "bun scripts/strip-comments.ts --dry-run",
-    "translate-readme": "bun scripts/translate-readme/cli.ts -v -o docs/i18n README.md",
+    "translate-readme": "bun scripts/translate-readme/cli.ts -v --use-existing -o docs/i18n README.md",
     "translate:tier1": "npm run translate-readme -- zh zh-tw ja pt pt-br ko es de fr",
     "translate:tier2": "npm run translate-readme -- he ar ru pl cs nl tr uk",
     "translate:tier3": "npm run translate-readme -- vi tl id th hi bn ur ro sv",
